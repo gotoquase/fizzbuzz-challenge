@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>FizzBuzz</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="item">
+            <h1 class="">Desafio FizzBuzz</h1>
+            <p>Este app imprime uma lista de números de acordo com o valor inserido e obedecendo as seguintes regras:</p>
+            <p>Para múltiplos de 3, imprima "Fizz" em vez do número e, para múltiplos de 5, imprima "Buzz". Para números que são múltiplos de ambos os números, imprima "FizzBuzz".</p>
+        </div>
+
+        
+        <div class="item">
+            <div class="col">
+                <label for="integerId">Insira um número inteiro positivo:</label>
+                <input type="number" id="integerId" class=""> 
+            </div>
+            
+            <div class="item">
+            <button type="button" id="calculate" onclick="checkFizzBuzz()">Calcular</button>
+            </div>
+            
+        </div>
+
+        <div class="item">
+            <label for="resultId">Resultado:</label>
+            <textarea class="" id="resultId" rows="10" cols="30" readonly></textarea>
+        </div>
+        <div class="item">
+            <p id="showSuccess"></p>
+        </div>
+
+        <div class="item">
+            <button type="button" id="reset" onclick="resetFields()">Resetar</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/caique-henrique-977240197/" target="_blank">Caique Henrique</a></p>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
