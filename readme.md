@@ -16,7 +16,7 @@ Inicialmente eu gostei de realizar este desafio na plataforma HackerRank, resolv
 
 ## Como Acessar
 
-1. Este projeto está hospedado neste [link](http://example.com).
+1. Este projeto está hospedado neste [link](https://gotoquase.github.io/fizzbuzz-challenge/).
 
 ## Exemplo de Saída
 
