@@ -44,3 +44,5 @@ FizzBuzz
 ## Licença
 
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+Feito por [Caique Henrique](https://github.com/gotoquase)
